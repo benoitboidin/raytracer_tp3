@@ -206,7 +206,7 @@ void Mesh::computeBoundingBox() {
     m_AABB.expandBy(v_iter->position);
 }
 
-void Mesh::buildBVH() {
+void Mesh::buildBVH() { // To call at scene loading, at the end of constructor. 
   if (m_BVH)
     delete m_BVH;
   m_BVH = new BVH;
@@ -217,6 +217,9 @@ long int Mesh::ms_itersection_count = 0;
 
 void Mesh::intersectFace(const Ray &ray, Hit &hit, int faceId) const {
   ms_itersection_count++;
+
+  // Check if BVH is created...
+  m_BVH->intersect(ray, hit); // Not sure where to place that...
 
   const FaceIndex &face = m_faces[faceId];
   const Vertex &A = m_vertices[face(0)]; // Pass by reference, no need to modify so const.

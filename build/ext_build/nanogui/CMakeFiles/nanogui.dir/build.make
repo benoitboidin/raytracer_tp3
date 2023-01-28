@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.25.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.25.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.25.1/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -82,7 +82,7 @@ ext_build/nanogui/nanogui_resources.cpp: /Users/benoitboidin/Desktop/s8_info/mon
 ext_build/nanogui/nanogui_resources.cpp: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/imageview_fragment.gl
 ext_build/nanogui/nanogui_resources.cpp: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/imageview_vertex.gl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running bin2c"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui && /usr/local/Cellar/cmake/3.25.1/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/FontAwesome-Solid.ttf,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/Inconsolata-Regular.ttf,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/Roboto-Bold.ttf,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/Roboto-Regular.ttf,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/imageview_fragment.gl,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/imageview_vertex.gl -P /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/bin2c.cmake
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui && /usr/local/Cellar/cmake/3.25.2/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/FontAwesome-Solid.ttf,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/Inconsolata-Regular.ttf,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/Roboto-Bold.ttf,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/Roboto-Regular.ttf,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/imageview_fragment.gl,/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/imageview_vertex.gl -P /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/resources/bin2c.cmake
 
 ext_build/nanogui/nanogui_resources.h: ext_build/nanogui/nanogui_resources.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate ext_build/nanogui/nanogui_resources.h
