@@ -39,7 +39,7 @@
   </shape>
 
   <shape type="mesh">
-    <string name="filename" value="tw.obj"/>
+    <string name="filename" value="tw503.obj"/>
     <bsdf type="diffuse">
       <color name="albedo" value="0.8, 0.4, 0.4" />
     </bsdf>

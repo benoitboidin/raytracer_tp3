@@ -83,22 +83,59 @@ void BVH::buildNode(int nodeId, int start, int end, int level,
   // fonction mpMesh->vertexOfFace(int) pour obtenir les coordonnées des sommets
   // des faces)
 
-  // étape 2 : déterminer si il s'agit d'une feuille (appliquer les critères
-  // d'arrêts)
+  for (int face=0; m_faces[face] < end; ++face) {
+    Eigen::AlignedBox3f box;
+    for (int i=0; i<3; ++i) {
+      box.extend(m_pMesh->vertexOfFace(m_faces[face], i).position);
+      
+    // étape 2 : déterminer si il s'agit d'une feuille (appliquer les critères
+    // d'arrêts)
 
-  // Si c'est une feuille, finaliser le noeud et quitter la fonction
+    // Si c'est une feuille, finaliser le noeud et quitter la fonction
+    if (level >= maxDepth){
+      node.is_leaf = true;
+      node.first_face_id = start;
+      node.nb_faces = end - start;
+      return;
+    }
+    // Si c'est un noeud interne :
 
-  // Si c'est un noeud interne :
+    // étape 3 : calculer l'index de la dimension (x=0, y=1, ou z=2) et la valeur
+    // du plan de coupe (on découpe au milieu de la boite selon la plus grande
+    // dimension)
+    else{
+      node.is_leaf = false;
+      node.first_face_id = start;
+      node.nb_faces = end - start;
+      int dim = 0;
+      float split_value = 0;
+      if (box.sizes()(0) > box.sizes()(1) && box.sizes()(0) > box.sizes()(2)){
+        dim = 0;
+        split_value = box.center()(0);
+      }
+      else if (box.sizes()(1) > box.sizes()(0) && box.sizes()(1) > box.sizes()(2)){
+        dim = 1;
+        split_value = box.center()(1);
+      }
+      else{
+        dim = 2;
+        split_value = box.center()(2);
+      }
+      // étape 4 : appeler la fonction split pour trier (partiellement) les faces et
+      // vérifier si le split a été utile
+      split(start, end, dim, split_value);
+      
+      // étape 5 : allouer les fils, et les construire en appelant buildNode...
+      m_nodes.resize(2);
+      buildNode(2*nodeId+1, start, split_value, level+1, targetCellSize, maxDepth);
+      buildNode(2*nodeId+2, split_value, end, level+1, targetCellSize, maxDepth);
+    }
 
-  // étape 3 : calculer l'index de la dimension (x=0, y=1, ou z=2) et la valeur
-  // du plan de coupe (on découpe au milieu de la boite selon la plus grande
-  // dimension)
 
-  // étape 4 : appeler la fonction split pour trier (partiellement) les faces et
-  // vérifier si le split a été utile
+    }
+  }
 
-  // étape 5 : allouer les fils, et les construire en appelant buildNode...
 
   // TODO
-  throw RTException("BVH::buildNode not implemented yet.");
+  // throw RTException("BVH::buildNode not implemented yet.");
 }
