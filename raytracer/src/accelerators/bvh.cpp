@@ -43,7 +43,16 @@ void BVH::intersect(const Ray &ray, Hit &hit) const {
   // TODO
   // vérifier si on a bien une intersection (en fonction de tMin, tMax, et
   // hit.t()), et si oui appeler intersecNode...
-  throw RTException("BVH::intersect not implemented yet.");
+
+
+  float t; 
+  ray.at(t);
+
+  if (tMin < t && tMax > t) {
+    intersectNode(0, ray, hit);
+  }
+
+  // throw RTException("BVH::intersect not implemented yet.");
 }
 
 void BVH::intersectNode(int nodeId, const Ray &ray, Hit &hit) const {
@@ -87,7 +96,7 @@ void BVH::buildNode(int nodeId, int start, int end, int level,
     Eigen::AlignedBox3f box;
     for (int i=0; i<3; ++i) {
       box.extend(m_pMesh->vertexOfFace(m_faces[face], i).position);
-      
+    } 
     // étape 2 : déterminer si il s'agit d'une feuille (appliquer les critères
     // d'arrêts)
 
@@ -126,12 +135,10 @@ void BVH::buildNode(int nodeId, int start, int end, int level,
       split(start, end, dim, split_value);
       
       // étape 5 : allouer les fils, et les construire en appelant buildNode...
+      // À vérifier...
       m_nodes.resize(2);
       buildNode(2*nodeId+1, start, split_value, level+1, targetCellSize, maxDepth);
       buildNode(2*nodeId+2, split_value, end, level+1, targetCellSize, maxDepth);
-    }
-
-
     }
   }
 
