@@ -59,7 +59,26 @@ void BVH::intersectNode(int nodeId, const Ray &ray, Hit &hit) const {
   // TODO, deux cas: soit mNodes[nodeId] est une feuille (il faut alors
   // intersecter les triangles du noeud), soit c'est un noeud interne (il faut
   // visiter les fils (ou pas))
-  throw RTException("BVH::intersectNode not implemented yet.");
+  // throw RTException("BVH::intersectNode not implemented yet.");
+
+  Node node = m_nodes[nodeId];
+  int total = node.nb_faces; 
+
+  if (node.is_leaf) {
+    // Intersecter les triances du noeud. 
+    Hit tmp_hit = Hit(); 
+    int start = node.first_face_id;
+    for (int i = start; i < total; i++){
+      m_pMesh->intersectFace(ray, tmp_hit, m_faces[i]);
+      if (tmp_hit.t < hit.t && tmp_hit.t > 0){
+        hit = tmp_hit;
+      }
+    }
+    return;
+  }else{
+    // Visiter les fils.
+    // Tester s'il y a une intersection entre les boites des deux fils. 
+  }
 }
 
 /** Sorts the faces with respect to their centroid along the dimension \a dim
@@ -112,34 +131,40 @@ void BVH::buildNode(int nodeId, int start, int end, int level,
     // étape 3 : calculer l'index de la dimension (x=0, y=1, ou z=2) et la valeur
     // du plan de coupe (on découpe au milieu de la boite selon la plus grande
     // dimension)
-    else{
-      node.is_leaf = false;
+    Vector3f max_dim = box.max();
+    Vector3f min_dim = box.min();
+    int ax_cut = 0;
+    float ax_val = (max_dim(0) + min_dim(0)) / 2;
+
+    if (max_dim(1) - min_dim(1) > max_dim(0) - min_dim(0)) {
+      ax_cut = 1;
+      ax_val = (max_dim(1) + min_dim(1)) / 2;
+    }
+    if (max_dim(2) - min_dim(2) > max_dim(1) - min_dim(1)) {
+      ax_cut = 2;
+      ax_val = (max_dim(2) + min_dim(2)) / 2;
+    }
+
+    // étape 4 : appeler la fonction split pour trier (partiellement) les faces et
+    // vérifier si le split a été utile
+    int split_val = split(start, end, ax_cut, ax_val);
+    
+    if (split_val == start || split_val == end) {
+      node.is_leaf = true;
       node.first_face_id = start;
       node.nb_faces = end - start;
-      int dim = 0;
-      float split_value = 0;
-      if (box.sizes()(0) > box.sizes()(1) && box.sizes()(0) > box.sizes()(2)){
-        dim = 0;
-        split_value = box.center()(0);
-      }
-      else if (box.sizes()(1) > box.sizes()(0) && box.sizes()(1) > box.sizes()(2)){
-        dim = 1;
-        split_value = box.center()(1);
-      }
-      else{
-        dim = 2;
-        split_value = box.center()(2);
-      }
-      // étape 4 : appeler la fonction split pour trier (partiellement) les faces et
-      // vérifier si le split a été utile
-      split(start, end, dim, split_value);
-      
-      // étape 5 : allouer les fils, et les construire en appelant buildNode...
-      // À vérifier...
-      m_nodes.resize(2);
-      buildNode(2*nodeId+1, start, split_value, level+1, targetCellSize, maxDepth);
-      buildNode(2*nodeId+2, split_value, end, level+1, targetCellSize, maxDepth);
+      return;
     }
+    
+    // étape 5 : allouer les fils, et les construire en appelant buildNode...
+    // À vérifier...
+    int size = m_nodes.size();
+    node.first_child_id = size;
+    m_nodes.resize(m_nodes.size() + 2);
+
+    buildNode(2*nodeId+1, start, split_val, level+1, targetCellSize, maxDepth);
+    buildNode(2*nodeId+2, split_val, end, level+1, targetCellSize, maxDepth);
+  
   }
 
 
