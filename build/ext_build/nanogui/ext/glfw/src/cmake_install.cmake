@@ -1,4 +1,4 @@
-# Install script for directory: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src
+# Install script for directory: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -45,7 +45,7 @@ void BVH::intersect(const Ray &ray, Hit &hit) const {
   // hit.t()), et si oui appeler intersecNode...
 
 
-  float t; 
+  float t = 0; 
   ray.at(t);
 
   if (tMin < t && tMax > t) {
@@ -65,7 +65,7 @@ void BVH::intersectNode(int nodeId, const Ray &ray, Hit &hit) const {
   int total = node.nb_faces; 
 
   if (node.is_leaf) {
-    // Intersecter les triances du noeud. 
+    // Intersecter les triangles du noeud. 
     Hit tmp_hit = Hit(); 
     int start = node.first_face_id;
     for (int i = start; i < total; i++){
@@ -78,6 +78,17 @@ void BVH::intersectNode(int nodeId, const Ray &ray, Hit &hit) const {
   }else{
     // Visiter les fils.
     // Tester s'il y a une intersection entre les boites des deux fils. 
+    
+    // À vérifier...
+    float tMin, tMax;
+    Normal3f n;
+    m_nodes[nodeId].box.rayIntersect(ray, tMin, tMax);
+    float t = 0;
+    ray.at(t);
+    if (tMin < t && tMax > t) {
+      intersectNode(nodeId*2+1, ray, hit);
+      intersectNode(nodeId*2+2, ray, hit);
+    }
   }
 }
 

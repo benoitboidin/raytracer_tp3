@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer
+CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build
+CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mds3d_raytracer.dir/depend.make
@@ -70,368 +70,368 @@ include CMakeFiles/mds3d_raytracer.dir/progress.make
 include CMakeFiles/mds3d_raytracer.dir/flags.make
 
 CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/accelerators/bvh.cpp
+CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/accelerators/bvh.cpp
 CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/accelerators/bvh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/accelerators/bvh.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/accelerators/bvh.cpp > CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/accelerators/bvh.cpp > CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/accelerators/bvh.cpp -o CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/accelerators/bvh.cpp -o CMakeFiles/mds3d_raytracer.dir/src/accelerators/bvh.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/dielectric.cpp
+CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/dielectric.cpp
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/dielectric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/dielectric.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/dielectric.cpp > CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/dielectric.cpp > CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/dielectric.cpp -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/dielectric.cpp -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/dielectric.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/diffuse.cpp
+CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/diffuse.cpp
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/diffuse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/diffuse.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/diffuse.cpp > CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/diffuse.cpp > CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/diffuse.cpp -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/diffuse.cpp -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/diffuse.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/mirror.cpp
+CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/mirror.cpp
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/mirror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/mirror.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/mirror.cpp > CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/mirror.cpp > CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/mirror.cpp -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/mirror.cpp -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/mirror.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/phong.cpp
+CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/phong.cpp
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/phong.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/phong.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/phong.cpp > CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/phong.cpp > CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/bsdfs/phong.cpp -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/bsdfs/phong.cpp -o CMakeFiles/mds3d_raytracer.dir/src/bsdfs/phong.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/bitmap.cpp
+CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/bitmap.cpp
 CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/bitmap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/bitmap.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/bitmap.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/bitmap.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/bitmap.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/bitmap.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/bitmap.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/block.cpp
+CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/block.cpp
 CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/block.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/block.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/block.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/block.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/block.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/block.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/common.cpp
+CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/common.cpp
 CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/common.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/common.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/common.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/common.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/common.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/common.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/object.cpp
+CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/object.cpp
 CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/object.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/object.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/object.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/object.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/object.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/object.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/parser.cpp
+CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/parser.cpp
 CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/parser.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/parser.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/parser.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/parser.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/parser.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/parser.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/perspective.cpp
+CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/perspective.cpp
 CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/perspective.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/perspective.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/perspective.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/perspective.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/perspective.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/perspective.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/perspective.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/proplist.cpp
+CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/proplist.cpp
 CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/proplist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/proplist.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/proplist.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/proplist.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/proplist.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/proplist.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/proplist.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/scene.cpp
+CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/scene.cpp
 CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/scene.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/scene.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/scene.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/scene.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/scene.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/scene.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/viewer.cpp
+CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/viewer.cpp
 CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/viewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/viewer.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/viewer.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/viewer.cpp > CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/core/viewer.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/core/viewer.cpp -o CMakeFiles/mds3d_raytracer.dir/src/core/viewer.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/direct.cpp
+CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/direct.cpp
 CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/direct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/direct.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/direct.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/direct.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/direct.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/direct.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/direct.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/flat.cpp
+CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/flat.cpp
 CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/flat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/flat.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/flat.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/flat.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/flat.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/flat.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/flat.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/normals.cpp
+CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/normals.cpp
 CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/normals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/normals.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/normals.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/normals.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/normals.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/normals.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/normals.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/texcoords.cpp
+CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/texcoords.cpp
 CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/texcoords.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/texcoords.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/texcoords.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/texcoords.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/texcoords.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/texcoords.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/texcoords.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/whitted.cpp
+CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/whitted.cpp
 CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/whitted.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/whitted.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/whitted.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/whitted.cpp > CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/integrators/whitted.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/integrators/whitted.cpp -o CMakeFiles/mds3d_raytracer.dir/src/integrators/whitted.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/lights/directionalLight.cpp
+CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/lights/directionalLight.cpp
 CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/lights/directionalLight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/lights/directionalLight.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/lights/directionalLight.cpp > CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/lights/directionalLight.cpp > CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/lights/directionalLight.cpp -o CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/lights/directionalLight.cpp -o CMakeFiles/mds3d_raytracer.dir/src/lights/directionalLight.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/lights/pointLight.cpp
+CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/lights/pointLight.cpp
 CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/lights/pointLight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/lights/pointLight.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/lights/pointLight.cpp > CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/lights/pointLight.cpp > CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/lights/pointLight.cpp -o CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/lights/pointLight.cpp -o CMakeFiles/mds3d_raytracer.dir/src/lights/pointLight.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/mesh.cpp
+CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/mesh.cpp
 CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/mesh.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/mesh.cpp > CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/mesh.cpp > CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/mesh.cpp -o CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/mesh.cpp -o CMakeFiles/mds3d_raytracer.dir/src/shapes/mesh.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/plane.cpp
+CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/plane.cpp
 CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/plane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/plane.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/plane.cpp > CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/plane.cpp > CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/plane.cpp -o CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/plane.cpp -o CMakeFiles/mds3d_raytracer.dir/src/shapes/plane.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/shape.cpp
+CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/shape.cpp
 CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/shape.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/shape.cpp > CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/shape.cpp > CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/shape.cpp -o CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/shape.cpp -o CMakeFiles/mds3d_raytracer.dir/src/shapes/shape.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/sphere.cpp
+CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/sphere.cpp
 CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/sphere.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/sphere.cpp > CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/sphere.cpp > CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/shapes/sphere.cpp -o CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/shapes/sphere.cpp -o CMakeFiles/mds3d_raytracer.dir/src/shapes/sphere.cpp.s
 
 CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o: CMakeFiles/mds3d_raytracer.dir/flags.make
-CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/main.cpp
+CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/main.cpp
 CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o: CMakeFiles/mds3d_raytracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o -MF CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o.d -o CMakeFiles/mds3d_raytracer.dir/src/main.cpp.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/main.cpp
 
 CMakeFiles/mds3d_raytracer.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mds3d_raytracer.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/main.cpp > CMakeFiles/mds3d_raytracer.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/main.cpp > CMakeFiles/mds3d_raytracer.dir/src/main.cpp.i
 
 CMakeFiles/mds3d_raytracer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mds3d_raytracer.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/src/main.cpp -o CMakeFiles/mds3d_raytracer.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/src/main.cpp -o CMakeFiles/mds3d_raytracer.dir/src/main.cpp.s
 
 # Object files for target mds3d_raytracer
 mds3d_raytracer_OBJECTS = \
@@ -498,7 +498,7 @@ mds3d_raytracer: ext_build/tinyobjloader/libtinyobjloader.a
 mds3d_raytracer: ext_build/nanogui/libnanogui.a
 mds3d_raytracer: ext_build/zlib/libz.a
 mds3d_raytracer: CMakeFiles/mds3d_raytracer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable mds3d_raytracer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable mds3d_raytracer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mds3d_raytracer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -510,6 +510,6 @@ CMakeFiles/mds3d_raytracer.dir/clean:
 .PHONY : CMakeFiles/mds3d_raytracer.dir/clean
 
 CMakeFiles/mds3d_raytracer.dir/depend:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles/mds3d_raytracer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles/mds3d_raytracer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mds3d_raytracer.dir/depend
 

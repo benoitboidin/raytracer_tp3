@@ -1,8 +1,8 @@
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/src/opengl.cpp \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/opengl.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/vector.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/common.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/src/opengl.cpp \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/opengl.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/vector.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/common.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -364,13 +364,13 @@ ext_build/nanogui/CMakeFiles/nanogui.dir/src/opengl.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/traits.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/math.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/include/GLFW/glfw3.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/include/GLFW/glfw3.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl3.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/os/availability.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/nanovg/src/nanovg.h
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/nanovg/src/nanovg.h

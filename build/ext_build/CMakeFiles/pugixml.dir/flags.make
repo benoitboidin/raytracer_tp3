@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib
+CXX_INCLUDES = -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib
 
 CXX_FLAGS =  -DGL_SILENCE_DEPRECATION=1 -std=c++17 -stdlib=libc++ -D_LIBCPP_VERSION -fvisibility=hidden -Wall -Wextra -Wno-unused-parameter -Wno-gnu-anonymous-struct -Wno-c99-extensions -Wno-nested-anon-types -Wno-deprecated-register -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
 

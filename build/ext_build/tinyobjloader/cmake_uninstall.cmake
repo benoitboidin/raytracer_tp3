@@ -1,8 +1,8 @@
-if(NOT EXISTS "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/tinyobjloader/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/tinyobjloader/install_manifest.txt")
-endif(NOT EXISTS "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/tinyobjloader/install_manifest.txt")
+if(NOT EXISTS "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/tinyobjloader/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/tinyobjloader/install_manifest.txt")
+endif(NOT EXISTS "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/tinyobjloader/install_manifest.txt")
 
-file(READ "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/tinyobjloader/install_manifest.txt" files)
+file(READ "/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/tinyobjloader/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

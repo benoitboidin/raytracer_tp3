@@ -1,8 +1,8 @@
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/src/texture.cpp \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/texture.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/object.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/common.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/src/texture.cpp \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/texture.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/object.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/common.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -364,9 +364,9 @@ ext_build/nanogui/CMakeFiles/nanogui.dir/src/texture.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/vector.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/traits.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/vector.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/math.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/nanovg/src/stb_image.h
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/nanovg/src/stb_image.h

@@ -1,8 +1,8 @@
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o: \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src/vulkan.c \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src/internal.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/glfw_config.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src/../include/GLFW/glfw3.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src/vulkan.c \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src/internal.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/glfw_config.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src/../include/GLFW/glfw3.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdint.h \
@@ -32,7 +32,7 @@ ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src/cocoa_platform.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src/cocoa_platform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/dlfcn.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/Availability.h \
@@ -770,12 +770,12 @@ ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers/SecCertificateSupport.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/Help.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/AppleHelp.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src/posix_thread.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src/posix_thread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/pthread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/pthread/sched.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/pthread/pthread_impl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/pthread/qos.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src/cocoa_joystick.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src/cocoa_joystick.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOCFPlugIn.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDLib.h \
@@ -795,7 +795,7 @@ ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDUsageTables.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDValue.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDTransaction.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src/nsgl_context.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src/nsgl_context.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdatomic.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src/egl_context.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src/osmesa_context.h
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src/egl_context.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src/osmesa_context.h

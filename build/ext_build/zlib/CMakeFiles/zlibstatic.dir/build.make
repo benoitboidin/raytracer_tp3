@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer
+CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build
+CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build
 
 # Include any dependencies generated for this target.
 include ext_build/zlib/CMakeFiles/zlibstatic.dir/depend.make
@@ -70,214 +70,214 @@ include ext_build/zlib/CMakeFiles/zlibstatic.dir/progress.make
 include ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/adler32.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/adler32.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.o -MF CMakeFiles/zlibstatic.dir/adler32.o.d -o CMakeFiles/zlibstatic.dir/adler32.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/adler32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.o -MF CMakeFiles/zlibstatic.dir/adler32.o.d -o CMakeFiles/zlibstatic.dir/adler32.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/adler32.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/adler32.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/adler32.c > CMakeFiles/zlibstatic.dir/adler32.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/adler32.c > CMakeFiles/zlibstatic.dir/adler32.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/adler32.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/adler32.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/adler32.c -o CMakeFiles/zlibstatic.dir/adler32.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/adler32.c -o CMakeFiles/zlibstatic.dir/adler32.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/compress.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/compress.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.o -MF CMakeFiles/zlibstatic.dir/compress.o.d -o CMakeFiles/zlibstatic.dir/compress.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.o -MF CMakeFiles/zlibstatic.dir/compress.o.d -o CMakeFiles/zlibstatic.dir/compress.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/compress.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/compress.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/compress.c > CMakeFiles/zlibstatic.dir/compress.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/compress.c > CMakeFiles/zlibstatic.dir/compress.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/compress.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/compress.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/compress.c -o CMakeFiles/zlibstatic.dir/compress.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/compress.c -o CMakeFiles/zlibstatic.dir/compress.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/crc32.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/crc32.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.o -MF CMakeFiles/zlibstatic.dir/crc32.o.d -o CMakeFiles/zlibstatic.dir/crc32.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.o -MF CMakeFiles/zlibstatic.dir/crc32.o.d -o CMakeFiles/zlibstatic.dir/crc32.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/crc32.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/crc32.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/crc32.c > CMakeFiles/zlibstatic.dir/crc32.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/crc32.c > CMakeFiles/zlibstatic.dir/crc32.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/crc32.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/crc32.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/crc32.c -o CMakeFiles/zlibstatic.dir/crc32.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/crc32.c -o CMakeFiles/zlibstatic.dir/crc32.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/deflate.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/deflate.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.o -MF CMakeFiles/zlibstatic.dir/deflate.o.d -o CMakeFiles/zlibstatic.dir/deflate.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/deflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.o -MF CMakeFiles/zlibstatic.dir/deflate.o.d -o CMakeFiles/zlibstatic.dir/deflate.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/deflate.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/deflate.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/deflate.c > CMakeFiles/zlibstatic.dir/deflate.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/deflate.c > CMakeFiles/zlibstatic.dir/deflate.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/deflate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/deflate.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/deflate.c -o CMakeFiles/zlibstatic.dir/deflate.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/deflate.c -o CMakeFiles/zlibstatic.dir/deflate.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzclose.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzclose.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.o -MF CMakeFiles/zlibstatic.dir/gzclose.o.d -o CMakeFiles/zlibstatic.dir/gzclose.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzclose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.o -MF CMakeFiles/zlibstatic.dir/gzclose.o.d -o CMakeFiles/zlibstatic.dir/gzclose.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzclose.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/gzclose.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzclose.c > CMakeFiles/zlibstatic.dir/gzclose.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzclose.c > CMakeFiles/zlibstatic.dir/gzclose.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzclose.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/gzclose.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzclose.c -o CMakeFiles/zlibstatic.dir/gzclose.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzclose.c -o CMakeFiles/zlibstatic.dir/gzclose.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzlib.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzlib.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.o -MF CMakeFiles/zlibstatic.dir/gzlib.o.d -o CMakeFiles/zlibstatic.dir/gzlib.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.o -MF CMakeFiles/zlibstatic.dir/gzlib.o.d -o CMakeFiles/zlibstatic.dir/gzlib.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzlib.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/gzlib.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzlib.c > CMakeFiles/zlibstatic.dir/gzlib.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzlib.c > CMakeFiles/zlibstatic.dir/gzlib.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzlib.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/gzlib.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzlib.c -o CMakeFiles/zlibstatic.dir/gzlib.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzlib.c -o CMakeFiles/zlibstatic.dir/gzlib.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzread.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzread.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.o -MF CMakeFiles/zlibstatic.dir/gzread.o.d -o CMakeFiles/zlibstatic.dir/gzread.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.o -MF CMakeFiles/zlibstatic.dir/gzread.o.d -o CMakeFiles/zlibstatic.dir/gzread.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzread.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/gzread.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzread.c > CMakeFiles/zlibstatic.dir/gzread.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzread.c > CMakeFiles/zlibstatic.dir/gzread.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/gzread.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzread.c -o CMakeFiles/zlibstatic.dir/gzread.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzread.c -o CMakeFiles/zlibstatic.dir/gzread.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzwrite.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzwrite.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o -MF CMakeFiles/zlibstatic.dir/gzwrite.o.d -o CMakeFiles/zlibstatic.dir/gzwrite.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o -MF CMakeFiles/zlibstatic.dir/gzwrite.o.d -o CMakeFiles/zlibstatic.dir/gzwrite.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzwrite.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/gzwrite.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzwrite.c > CMakeFiles/zlibstatic.dir/gzwrite.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzwrite.c > CMakeFiles/zlibstatic.dir/gzwrite.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/gzwrite.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/gzwrite.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/gzwrite.c -o CMakeFiles/zlibstatic.dir/gzwrite.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/gzwrite.c -o CMakeFiles/zlibstatic.dir/gzwrite.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inflate.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inflate.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.o -MF CMakeFiles/zlibstatic.dir/inflate.o.d -o CMakeFiles/zlibstatic.dir/inflate.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.o -MF CMakeFiles/zlibstatic.dir/inflate.o.d -o CMakeFiles/zlibstatic.dir/inflate.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inflate.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/inflate.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inflate.c > CMakeFiles/zlibstatic.dir/inflate.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inflate.c > CMakeFiles/zlibstatic.dir/inflate.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inflate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/inflate.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inflate.c -o CMakeFiles/zlibstatic.dir/inflate.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inflate.c -o CMakeFiles/zlibstatic.dir/inflate.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/infback.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/infback.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.o -MF CMakeFiles/zlibstatic.dir/infback.o.d -o CMakeFiles/zlibstatic.dir/infback.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/infback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.o -MF CMakeFiles/zlibstatic.dir/infback.o.d -o CMakeFiles/zlibstatic.dir/infback.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/infback.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/infback.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/infback.c > CMakeFiles/zlibstatic.dir/infback.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/infback.c > CMakeFiles/zlibstatic.dir/infback.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/infback.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/infback.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/infback.c -o CMakeFiles/zlibstatic.dir/infback.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/infback.c -o CMakeFiles/zlibstatic.dir/infback.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inftrees.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inftrees.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.o -MF CMakeFiles/zlibstatic.dir/inftrees.o.d -o CMakeFiles/zlibstatic.dir/inftrees.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inftrees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.o -MF CMakeFiles/zlibstatic.dir/inftrees.o.d -o CMakeFiles/zlibstatic.dir/inftrees.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inftrees.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/inftrees.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inftrees.c > CMakeFiles/zlibstatic.dir/inftrees.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inftrees.c > CMakeFiles/zlibstatic.dir/inftrees.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inftrees.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/inftrees.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inftrees.c -o CMakeFiles/zlibstatic.dir/inftrees.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inftrees.c -o CMakeFiles/zlibstatic.dir/inftrees.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inffast.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inffast.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.o -MF CMakeFiles/zlibstatic.dir/inffast.o.d -o CMakeFiles/zlibstatic.dir/inffast.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inffast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.o -MF CMakeFiles/zlibstatic.dir/inffast.o.d -o CMakeFiles/zlibstatic.dir/inffast.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inffast.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/inffast.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inffast.c > CMakeFiles/zlibstatic.dir/inffast.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inffast.c > CMakeFiles/zlibstatic.dir/inffast.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/inffast.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/inffast.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/inffast.c -o CMakeFiles/zlibstatic.dir/inffast.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/inffast.c -o CMakeFiles/zlibstatic.dir/inffast.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/trees.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/trees.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.o -MF CMakeFiles/zlibstatic.dir/trees.o.d -o CMakeFiles/zlibstatic.dir/trees.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/trees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.o -MF CMakeFiles/zlibstatic.dir/trees.o.d -o CMakeFiles/zlibstatic.dir/trees.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/trees.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/trees.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/trees.c > CMakeFiles/zlibstatic.dir/trees.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/trees.c > CMakeFiles/zlibstatic.dir/trees.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/trees.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/trees.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/trees.c -o CMakeFiles/zlibstatic.dir/trees.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/trees.c -o CMakeFiles/zlibstatic.dir/trees.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/uncompr.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/uncompr.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.o -MF CMakeFiles/zlibstatic.dir/uncompr.o.d -o CMakeFiles/zlibstatic.dir/uncompr.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/uncompr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.o -MF CMakeFiles/zlibstatic.dir/uncompr.o.d -o CMakeFiles/zlibstatic.dir/uncompr.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/uncompr.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/uncompr.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/uncompr.c > CMakeFiles/zlibstatic.dir/uncompr.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/uncompr.c > CMakeFiles/zlibstatic.dir/uncompr.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/uncompr.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/uncompr.c -o CMakeFiles/zlibstatic.dir/uncompr.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/uncompr.c -o CMakeFiles/zlibstatic.dir/uncompr.s
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/flags.make
-ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/zutil.c
+ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.o: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/zutil.c
 ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.o: ext_build/zlib/CMakeFiles/zlibstatic.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.o"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.o -MF CMakeFiles/zlibstatic.dir/zutil.o.d -o CMakeFiles/zlibstatic.dir/zutil.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/zutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.o"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.o -MF CMakeFiles/zlibstatic.dir/zutil.o.d -o CMakeFiles/zlibstatic.dir/zutil.o -c /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/zutil.c
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlibstatic.dir/zutil.i"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/zutil.c > CMakeFiles/zlibstatic.dir/zutil.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/zutil.c > CMakeFiles/zlibstatic.dir/zutil.i
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlibstatic.dir/zutil.s"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib/zutil.c -o CMakeFiles/zlibstatic.dir/zutil.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib/zutil.c -o CMakeFiles/zlibstatic.dir/zutil.s
 
 # Object files for target zlibstatic
 zlibstatic_OBJECTS = \
@@ -317,19 +317,19 @@ ext_build/zlib/libz.a: ext_build/zlib/CMakeFiles/zlibstatic.dir/uncompr.o
 ext_build/zlib/libz.a: ext_build/zlib/CMakeFiles/zlibstatic.dir/zutil.o
 ext_build/zlib/libz.a: ext_build/zlib/CMakeFiles/zlibstatic.dir/build.make
 ext_build/zlib/libz.a: ext_build/zlib/CMakeFiles/zlibstatic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library libz.a"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && $(CMAKE_COMMAND) -P CMakeFiles/zlibstatic.dir/cmake_clean_target.cmake
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zlibstatic.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library libz.a"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && $(CMAKE_COMMAND) -P CMakeFiles/zlibstatic.dir/cmake_clean_target.cmake
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zlibstatic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext_build/zlib/CMakeFiles/zlibstatic.dir/build: ext_build/zlib/libz.a
 .PHONY : ext_build/zlib/CMakeFiles/zlibstatic.dir/build
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/clean:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib && $(CMAKE_COMMAND) -P CMakeFiles/zlibstatic.dir/cmake_clean.cmake
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib && $(CMAKE_COMMAND) -P CMakeFiles/zlibstatic.dir/cmake_clean.cmake
 .PHONY : ext_build/zlib/CMakeFiles/zlibstatic.dir/clean
 
 ext_build/zlib/CMakeFiles/zlibstatic.dir/depend:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib/CMakeFiles/zlibstatic.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib/CMakeFiles/zlibstatic.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext_build/zlib/CMakeFiles/zlibstatic.dir/depend
 

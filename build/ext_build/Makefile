@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer
+CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build
+CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.25.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.25.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build//CMakeFiles/progress.marks
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles 0
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build//CMakeFiles/progress.marks
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/clean
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/preinstall
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/preinstall
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext_build/CMakeFiles/pugixml.dir/rule:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/CMakeFiles/pugixml.dir/rule
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext_build/CMakeFiles/pugixml.dir/rule
 .PHONY : ext_build/CMakeFiles/pugixml.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ pugixml: ext_build/CMakeFiles/pugixml.dir/rule
 
 # fast build rule for target.
 pugixml/fast:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(MAKE) $(MAKESILENT) -f ext_build/CMakeFiles/pugixml.dir/build.make ext_build/CMakeFiles/pugixml.dir/build
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(MAKE) $(MAKESILENT) -f ext_build/CMakeFiles/pugixml.dir/build.make ext_build/CMakeFiles/pugixml.dir/build
 .PHONY : pugixml/fast
 
 pugixml/src/pugixml.o: pugixml/src/pugixml.cpp.o
@@ -180,7 +180,7 @@ pugixml/src/pugixml.o: pugixml/src/pugixml.cpp.o
 
 # target to build an object file
 pugixml/src/pugixml.cpp.o:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(MAKE) $(MAKESILENT) -f ext_build/CMakeFiles/pugixml.dir/build.make ext_build/CMakeFiles/pugixml.dir/pugixml/src/pugixml.cpp.o
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(MAKE) $(MAKESILENT) -f ext_build/CMakeFiles/pugixml.dir/build.make ext_build/CMakeFiles/pugixml.dir/pugixml/src/pugixml.cpp.o
 .PHONY : pugixml/src/pugixml.cpp.o
 
 pugixml/src/pugixml.i: pugixml/src/pugixml.cpp.i
@@ -188,7 +188,7 @@ pugixml/src/pugixml.i: pugixml/src/pugixml.cpp.i
 
 # target to preprocess a source file
 pugixml/src/pugixml.cpp.i:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(MAKE) $(MAKESILENT) -f ext_build/CMakeFiles/pugixml.dir/build.make ext_build/CMakeFiles/pugixml.dir/pugixml/src/pugixml.cpp.i
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(MAKE) $(MAKESILENT) -f ext_build/CMakeFiles/pugixml.dir/build.make ext_build/CMakeFiles/pugixml.dir/pugixml/src/pugixml.cpp.i
 .PHONY : pugixml/src/pugixml.cpp.i
 
 pugixml/src/pugixml.s: pugixml/src/pugixml.cpp.s
@@ -196,7 +196,7 @@ pugixml/src/pugixml.s: pugixml/src/pugixml.cpp.s
 
 # target to generate assembly for a file
 pugixml/src/pugixml.cpp.s:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(MAKE) $(MAKESILENT) -f ext_build/CMakeFiles/pugixml.dir/build.make ext_build/CMakeFiles/pugixml.dir/pugixml/src/pugixml.cpp.s
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(MAKE) $(MAKESILENT) -f ext_build/CMakeFiles/pugixml.dir/build.make ext_build/CMakeFiles/pugixml.dir/pugixml/src/pugixml.cpp.s
 .PHONY : pugixml/src/pugixml.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

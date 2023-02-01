@@ -1,7 +1,7 @@
 ext_build/nanogui/CMakeFiles/nanogui.dir/src/autorelease.mm.o: \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/src/autorelease.mm \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/nanogui.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/common.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/src/autorelease.mm \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/nanogui.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/common.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -363,35 +363,35 @@ ext_build/nanogui/CMakeFiles/nanogui.dir/src/autorelease.mm.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/metal.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/vector.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/traits.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/metal.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/vector.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/math.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/widget.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/object.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/theme.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/screen.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/texture.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/window.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/layout.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/widget.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/object.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/theme.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/screen.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/texture.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/window.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/layout.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/unordered_map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__node_handle \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/label.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/checkbox.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/button.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/toolbutton.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/popup.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/popupbutton.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/combobox.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/progressbar.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/icons.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/messagedialog.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/textbox.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/label.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/checkbox.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/button.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/toolbutton.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/popup.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/popupbutton.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/combobox.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/progressbar.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/icons.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/messagedialog.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/textbox.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream \
@@ -446,19 +446,19 @@ ext_build/nanogui/CMakeFiles/nanogui.dir/src/autorelease.mm.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/textarea.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/slider.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/imagepanel.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/vscrollpanel.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/colorwheel.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/graph.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/formhelper.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/colorpicker.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/tabwidget.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/shader.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/renderpass.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/canvas.h \
-  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include/nanogui/imageview.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/textarea.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/slider.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/imagepanel.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/vscrollpanel.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/colorwheel.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/graph.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/formhelper.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/colorpicker.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/tabwidget.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/shader.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/renderpass.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/canvas.h \
+  /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include/nanogui/imageview.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \

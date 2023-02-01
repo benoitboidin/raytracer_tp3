@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer
+CMAKE_SOURCE_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build
+CMAKE_BINARY_DIR = /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build
 
 # Include any dependencies generated for this target.
 include ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend.make
@@ -74,21 +74,21 @@ glfw_OBJECTS =
 
 # External object files for target glfw
 glfw_EXTERNAL_OBJECTS = \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_init.m.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_joystick.m.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_monitor.m.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_window.m.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_time.c.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/nsgl_context.m.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
-"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o"
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_init.m.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_joystick.m.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_monitor.m.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_window.m.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_time.c.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/posix_thread.c.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/nsgl_context.m.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.o" \
+"/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o"
 
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o
@@ -107,19 +107,19 @@ ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeF
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.o
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build.make
 ext_build/nanogui/ext/glfw/src/libglfw3.a: ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build: ext_build/nanogui/ext/glfw/src/libglfw3.a
 .PHONY : ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/build
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
 .PHONY : ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/clean
 
 ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend:
-	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/src /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/src /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ext_build/nanogui/ext/glfw/src/CMakeFiles/glfw.dir/depend
 

@@ -5,13 +5,13 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 C_DEFINES = -DGL_SILENCE_DEPRECATION -DNANOGUI_BUILD -DNANOGUI_USE_OPENGL -DNVG_STB_IMAGE_IMPLEMENTATION
 
-C_INCLUDES = -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/nanovg/src -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/include
+C_INCLUDES = -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/nanovg/src -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/include
 
 C_FLAGS =  -Wno-deprecated-declarations -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=10.13 -march=nehalem -fobjc-arc
 
 CXX_DEFINES = -DGL_SILENCE_DEPRECATION -DNANOGUI_BUILD -DNANOGUI_USE_OPENGL -DNVG_STB_IMAGE_IMPLEMENTATION
 
-CXX_INCLUDES = -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/include -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/nanovg/src -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext/nanogui/ext/glfw/include
+CXX_INCLUDES = -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/include -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/nanovg/src -I/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext/nanogui/ext/glfw/include
 
 CXX_FLAGS =  -DGL_SILENCE_DEPRECATION=1 -std=c++17 -stdlib=libc++ -D_LIBCPP_VERSION -fvisibility=hidden -Wall -Wextra -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=10.13 -fvisibility=hidden -march=nehalem -fobjc-arc -std=gnu++17
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/raytracer/ext
+# Install script for directory: /Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/raytracer/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/zlib/cmake_install.cmake")
-  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/tbb/cmake_install.cmake")
-  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/nanogui/cmake_install.cmake")
-  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp3/build/ext_build/tinyobjloader/cmake_install.cmake")
+  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/zlib/cmake_install.cmake")
+  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/tbb/cmake_install.cmake")
+  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/nanogui/cmake_install.cmake")
+  include("/Users/benoitboidin/Desktop/s8_info/mondes_3d/tp2/build/ext_build/tinyobjloader/cmake_install.cmake")
 
 endif()
 
