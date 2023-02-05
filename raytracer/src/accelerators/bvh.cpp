@@ -35,24 +35,22 @@ void BVH::build(const Mesh *pMesh, int targetCellSize, int maxDepth) {
 }
 
 void BVH::intersect(const Ray &ray, Hit &hit) const {
-  // compute the intersection with the root node
-  float tMin, tMax;
-  Normal3f n;
-  m_nodes[0].box.rayIntersect(ray, tMin, tMax);
-
   // TODO
   // vérifier si on a bien une intersection (en fonction de tMin, tMax, et
   // hit.t()), et si oui appeler intersecNode...
 
+  // throw RTException("BVH::intersect not implemented yet.");
 
+  float tMin, tMax;
   float t = 0; 
+
+  m_nodes[0].box.rayIntersect(ray, tMin, tMax);
+
   ray.at(t);
 
-  if (tMin < t && tMax > t) {
+  if (tMin < t && t > tMax ) {
     intersectNode(0, ray, hit);
   }
-
-  // throw RTException("BVH::intersect not implemented yet.");
 }
 
 void BVH::intersectNode(int nodeId, const Ray &ray, Hit &hit) const {
@@ -65,7 +63,7 @@ void BVH::intersectNode(int nodeId, const Ray &ray, Hit &hit) const {
   int total = node.nb_faces; 
 
   if (node.is_leaf) {
-    // Intersecter les triangles du noeud. 
+    // Intersecter les triangles du noeud. z
     Hit tmp_hit = Hit(); 
     int start = node.first_face_id;
     for (int i = start; i < total; i++){
